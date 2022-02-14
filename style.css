@@ -1,0 +1,75 @@
+html {
+  font-family: sans-serif;
+}
+body{
+    background: #75B8FA;
+    font: normal 15pt Arial;
+    width: 50%;
+    max-width: 800px;
+    min-width: 480px;
+    margin: 0 auto;
+}
+header {
+  font-family: 'Chewy', cursive;
+  letter-spacing: 4px;
+  color: #87FADB;
+  text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.288);
+  text-align: center;
+ 
+  
+}
+section{
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.288);
+    font-family: 'Chewy', cursive;
+    color: rgba(51, 51, 51, 0.76);
+    
+}
+#campoPalpite{
+    border-radius: 7px;
+    height: 18px;
+}
+#envioPalpite{
+  font-family: 'Chewy', cursive;
+  letter-spacing: 2px;
+  color: white;
+  border-radius: 7px;
+  background-color: #AD91FF;
+}
+#envioPalpite:hover{
+  background-color: rgb(95, 176, 190);
+}
+.baixoOuAlto button{
+  font-family: 'Chewy', cursive;
+  letter-spacing: 2px;
+  color: white;
+  border-radius: 7px;
+  background-color: #AD91FF;
+  text-align: center
+}
+.baixoOuAlto{
+  text-align: center
+}
+
+.ultimoResultado {
+  padding: 0.5em;
+}
+
+/*#envioPalpite{
+    background-color: white;
+    border-radius: 7px;
+    height: 25px;
+    color: #030303;
+    font-weight: bold;
+    
+}*/
+footer {
+  color: white;
+  text-align: center;
+  padding: 15px;
+  font-style: italic;
+}

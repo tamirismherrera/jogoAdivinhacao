@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jogo</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Chewy&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <h1>Adivinhe o número :</h1>
+    </header>
+
+    <section>
+      <p>
+        Será sorteado um número aleatório entre 1 e 100. Veja se consegue
+        adivinhar em 10 chances ou menos. Você receberá uma dica se seu palpite foi
+        muito alto ou muito baixo. <br/>
+        
+      </p>
+      <p style="text-align: center;">BOA SORTE !!</p>
+
+      <div class="form">
+        <label for="campoPalpite">Digite seu palpite: </label>
+        <input type="text" id="campoPalpite" class="campoPalpite" />
+        <input
+          type="submit"
+          id="envioPalpite"
+          value="Enviar palpite"
+          class="envioPalpite"
+        />
+      </div>
+      <div class="resultadoParas">
+        <p class="palpites"></p>
+        <p class="ultimoResultado"></p>
+        <p class="baixoOuAlto"></p>
+      </div>
+    </section>
+    <script src="jogo.js"></script>
+  </body>
+</html>
